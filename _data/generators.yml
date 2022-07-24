@@ -71,7 +71,7 @@
 
 - command: make-migration
   desc: Generate a database migration for the specified module.
-  example: 'php artisan module:make-mail create_posts_table Blog'
+  example: 'php artisan module:make-migration create_posts_table Blog'
   options:
     - option: --fields=username:string,password:string
       desc: The fields to migrate.
